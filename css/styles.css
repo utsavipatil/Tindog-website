@@ -1,0 +1,177 @@
+/* Access ID by "#" */
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/*     Containers     */
+.Container {
+  padding: 7% 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*    Headings      */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*    Sections            */
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.colored-section{
+  background-color: #ff4c68;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/*     Navigation Bar     */
+.navbar {
+  font-size: 1.25rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu"
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+/*                             Title Section                          */
+#title .Container{
+  padding: 3% 15% 7%;
+  color: #fff;
+  text-align: left;
+}
+/* Title-Image */
+.title-image {
+  position: absolute;
+  transform: rotate(25deg);
+  /* Transform Property for Rotaation of Image */
+  width: auto;
+  height: 100%;
+  right: 22%;
+}
+
+/*      Downlaod Button        */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/*                             Features Section                         */
+#features {
+  text-align: center;
+  position: relative;
+  /* z-index: 1; with the use of stacking order flow chart no need of z-index*/
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* H3 Font Icons */
+.box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+/* Change color when Hover on he font icons by usind "Sudo Class" */
+.fas:hover {
+  color: #ff4c68;
+}
+
+/*                                      Testimonials Section                                 */
+#testimonials {
+  color: #fff;
+  background-color: #ef8172;
+}
+
+.testimonial-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*                                  Press Section                                */
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/*                                 Pricing Section                              */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-coloum {
+  padding: 3% 2%;
+}
+
+.price-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-card-heading {
+  font-size: 1.5rem;
+}
+
+/*                                 Call to Action                                 */
+.cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #fff;
+}
+
+/*                                   Footer                                       */
+.footer-icon {
+  padding: 20px 10px;
+}
+
+/*                                    Media Query                                   */
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
