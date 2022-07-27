@@ -1,1 +1,2 @@
-# Tindog-website = https://utsavipatil.github.io/Tindog-website/
+# Tindog-website
+A Webpage about Dog care Centre demonstrated functionality of Boostrap , HTML , CSS
